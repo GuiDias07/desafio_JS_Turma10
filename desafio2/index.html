@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Desafio2</title> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> ME ACHA! </h1>
+        <h2> ENCONTRE UM ENDEREÇO PELO NÚMERO DO CEP </h2>
+        <span class="material-symbols-outlined">
+            travel_explore
+            </span>
+    </header>
+    <main>
+        <form>
+            <fieldset class="form-box">
+                
+                <div>
+                <label for="cep"> Cep </label>
+                <input class="txt"  id="NumeroCep">
+                </div>
+                
+                <div>
+                <label for="rua"> Rua </label>
+                <input class="txt"  id="logradouro">
+                </div>
+
+                <div>
+                <label for="bairro"> Bairro </label>
+                <input class="txt" value="" id="bairro">
+                </div>
+                
+                <div>
+                <label for="cidade"> Cidade </label>
+                <input class="txt" value="" id="localidade">
+                </div>
+
+                <div>
+                <label for="estado"> Estado </label>
+                <input class="txt" value="" id="uf">
+                </div>
+
+                <input id="buscarCep" type="button" value="Buscar">
+
+               
+            </fieldset>
+        </form>
+    </main>
+    
+</body>
+<script type="module" src="fetch.js"></script>
+</html>
